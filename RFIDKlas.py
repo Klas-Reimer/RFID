@@ -50,9 +50,7 @@ def loop():
 					if uid == c.uidcard1:
 						print(c.uidcard1)
 						print(c.content1)
-						print(c.name1)	
-						p=vlc.MediaPlayer("/home/pi/Videos/Nick.mov")		
-						p.play()		
+						print(c.name1)		
 						import webbrowser
 						webbrowser.open_new_tab(c.link1)
 						time.sleep(10)
